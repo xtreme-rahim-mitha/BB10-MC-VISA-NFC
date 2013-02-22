@@ -27,6 +27,7 @@
 
 using namespace bb::cascades;
 
+
 About::About() :
 		_appVersion(QString(Settings::AppVersion)) {
 	qDebug() << "XXXX constructing About...";
@@ -36,6 +37,7 @@ About::About() :
 }
 
 About::~About() {
+	//destructor
 }
 
 void About::show() {
